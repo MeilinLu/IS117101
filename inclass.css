@@ -1,0 +1,50 @@
+body {
+  height: 5000px;
+  margin: 0px;
+}
+#sliderMenu ul{
+  margin:0px;
+}
+#sliderMenu a{
+  color:white;
+}
+#one{
+  //float:left;
+  background-color: blue;
+  position:fixed;
+  top:0px;
+  width:960px;
+}
+#two{
+ // float:left;
+  background-color:green;
+ //after fix one, one covered two
+  margin-top:22px;
+  background-image: url("..//img/hero.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position:0px;
+  height: 366px;
+}
+#three{
+ // clear:both;
+  background-color:red;
+}
+#four{
+  background-color:black;
+  color: white;
+}
+.boxWidth{
+  width:200px;
+}
+//whit float Left in html class
+.floatLeft{
+  float: left;
+}
+.clear{
+  clear: both;
+}
+li{
+  display:inline;
+}
+
